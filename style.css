@@ -1,0 +1,93 @@
+/* Colors and fonts */
+body {
+  background: #d9eeff;
+  font-family: 'Arial';
+  font-size: 25px;
+  font-weight: 900;
+}
+h1, h2, h3, h4 {
+  font-family: 'Lobster', sans-serif;
+}
+h1 {
+  color: #faa5ca;
+  font-size: 60px;
+  font-weight: 900;
+}
+h2 {
+  color: #fa7db3;
+  font-size: 17px;
+  font-weight: 900;
+}
+h4 {
+  color: #faa5ca;
+  font-size: 90px;
+  font-weight: 900;
+}
+a {
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  color: #faa5ca;
+  font-weight: 600;
+  font-size: 30px;
+}
+a:hover {
+  color: hotpink;
+}
+/* Style the link to look like a button */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.button-link:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+.gallery-image {
+    width: 600px;
+    height: auto;
+}
+.container {
+    margin-top: 20px; /* Adjust the value as needed */
+    padding: 20px;
+    text-align: left;
+}
+.card-white {
+  margin-bottom: 80px;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap when they exceed the container width */
+  gap: 20px; /* Optional, adds spacing between items */
+}
+audio {
+  margin-bottom: 0px; 
+  margin-top: 0px;
+}
+.lowercase-text {
+  text-transform: lowercase;
+}
+h2 a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits color from the <h2> */
+  font-size: inherit;
+}
+header nav ul {
+    list-style: none;
+    text-align: right;
+}
+.card-white audio {
+        display: block;  /* Ensure it takes full width and appears above */
+        margin-bottom: 20px;  /* Adds space below the audio */
+    }
+
+.container audio {
+        display: block;  /* Ensure it takes full width and appears above */
+        margin-bottom: 30px;  /* Adds space below the audio */
+    }
+  
